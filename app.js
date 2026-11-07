@@ -4,8 +4,8 @@
 const KEY="azzahra.v1", AKEY="azzahra.auto";
 
 /* ---------- supabase ---------- */
-const SB_URL="https://mlfoxaaolsxltytuhous.supabase.co";
-const SB_KEY="sb_publishable_8U_TmHSCOHhvdfkLmusWmg_nP18EO1r";
+const SB_URL="https://rtjihktbupqwioqmubnb.supabase.co";
+const SB_KEY="sb_publishable_xgw2NiovTmW6vsJnQwYgog_8uClYmv2";
 const sb=window.supabase?window.supabase.createClient(SB_URL,SB_KEY):null;
 let cloudStamp=null,cloudReady=false,pushT=null,pushing=false;
 function queuePush(){
