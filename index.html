@@ -13,6 +13,10 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <linearGradient id="kt-bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6a0ec"/><stop offset="1" stop-color="#a93dd0"/></linearGradient>
+  <linearGradient id="kt-bar-today" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6a1fa3"/><stop offset="1" stop-color="#4C0281"/></linearGradient>
+</defs></svg>
 <div id="lock" class="lock" hidden></div>
 <div class="app" id="app" hidden>
   <aside class="side" id="side"></aside>
@@ -33,6 +37,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="app.js"></script>
+<script src="ui.js"></script>
 <script>if("serviceWorker"in navigator&&location.protocol.startsWith("http"))addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})</script>
 </body>
 </html>
